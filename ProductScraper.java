@@ -43,7 +43,7 @@ public class ProductScraper {
             System.out.println("✅ Data extracted successfully and saved to products.csv!");
 
         } catch (IOException e) {
-            System.out.println("❌ Error fetching data: " + e.getMessage());
+            System.out.println(" Error fetching data: " + e.getMessage());
         }
     }
 }
